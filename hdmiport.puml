@@ -1,0 +1,15 @@
+@startuml hdmiport
+
+
+class HdmiPort {
+
+    boolean functioning
+    String connectedTo
+
+    void damage()
+    void repair()
+    void connect(String)
+    void disconnect()
+}
+
+@enduml
